@@ -44,7 +44,7 @@ Prerequesties before solving the tasks:
 
 - Remove all the commas contained in the observations using excel by, Selecting the column > Home > Editing tab > Find & Select > Replace.
 
-- Change to yyyy-mm-dd format by right cick > Format cells > Number > Time > selecting 'yyyy-mm-dd' format > Ok. And save te file.
+- Change to yyyy-mm-dd format by right cick > Format cells > Number > Date > selecting 'yyyy-mm-dd' format > Ok. And save the file.
 
 - For the sql version above 5.6, there must be a restriction to import file. So, you have to paste the importing file in the file directory. File directories are         mostly a hidden file.
 
