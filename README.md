@@ -36,3 +36,18 @@ Write queries for the following tasks:
 9. Fetch data of all the matches where the final scores of both teams tied and order it in descending order of the date.
 
 10. Get the count of cities that have hosted an IPL match.
+
+
+Prerequesties before solving the tasks:
+
+- Open the csv files and save as in 'CSV MS-DOS' format to avoid encryption (It is probably 'CSV comma delimited' prior).
+
+- Remove all the commas contained in the observations using excel by, Selecting the column > Home > Editing tab > Find & Select > Replace.
+
+- Change to yyyy-mm-dd format by right cick > Format cells > Number > Time > selecting 'yyyy-mm-dd' format > Ok. And save te file.
+
+- For the sql version above 5.6, there must be a restriction to import file. So, you have to paste the importing file in the file directory. File directories are         mostly a hidden file.
+
+  Check the directory below: You need to run the below command for extracting the path where you need to paste both the csv files.
+
+  show variables like "secure_file_priv";
